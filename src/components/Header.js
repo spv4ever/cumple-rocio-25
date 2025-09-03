@@ -1,13 +1,17 @@
 // src/components/Header.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importa Link
 import './Header.css';
 
 const Header = () => {
   return (
-    <header className="main-header">
-      <h1>¡Mis 25!</h1>
-      <p>Un día para recordar</p>
-    </header>
+    // Haz que toda la cabecera sea un enlace a la página de inicio
+    <Link to="/" className="header-link">
+      <header className="main-header">
+        <h1>Eventos Familiares</h1>
+        <p>Coleccionando recuerdos</p>
+      </header>
+    </Link>
   );
 };
 
