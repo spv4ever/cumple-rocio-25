@@ -17,5 +17,12 @@ export const eventsData = [
     date: "Septiembre 2025",
     coverImagePublicId: "SalidaCastellar/DSC_0182_hpzjq2", // Deberás cambiar esto
   },
+  {
+    id: "SalidaDeltebre", // Ejemplo para un futuro evento
+    title: "Excursión a Deltebre",
+    date: "Septiembre 2025",
+    coverImagePublicId: "SalidaDeltebre2025/DSC_0087_juoern", // Deberás cambiar esto
+  },
+  
   // <-- Añade aquí tu próximo evento
 ];
