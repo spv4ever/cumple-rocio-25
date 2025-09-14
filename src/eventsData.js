@@ -24,7 +24,7 @@ export const eventsData = [
     coverImagePublicId: "SalidaDeltebre2025/DSC_0087_juoern", // Deberás cambiar esto
   },
   {
-      id: "ReportajeLena0925", // Ejemplo para un futuro evento
+      id: "lena0925", // Ejemplo para un futuro evento
     title: "Reportaje fotográfico de Lena by @ceci_medina_fotografia",
     date: "Septiembre 2025",
     coverImagePublicId: "Lena0925/00004Lena_uaaokd", // Deberás cambiar esto
